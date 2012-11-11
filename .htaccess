@@ -1,3 +1,5 @@
+ErrorDocument 404 /404.html
+
 # Removes www. from the start of the URL.
 <IfModule mod_rewrite.c>
   RewriteCond %{HTTPS} !=on
