@@ -1,3 +1,8 @@
+RewriteEngine on
+RewriteBase /
+
+Options -MultiViews
+
 ErrorDocument 404 /404.html
 
 # Removes www. from the start of the URL.
