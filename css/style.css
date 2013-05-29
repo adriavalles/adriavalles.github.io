@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 	(C) Adrià Vallès - adriavalles.net
 	Hey, don't copy me!! Or, at least, a mention will be apreciated. :)
@@ -8,7 +9,7 @@
 body { background:#204867 url("../img/bg.jpg") repeat fixed center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; font:normal 14px "Lucida Grande","Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; color:#183f59; }
 img { border:none; }
 a { color:#e5e5e5; text-decoration:none; outline-style:none; -webkit-transition-duration:100ms; -moz-transition-duration:100ms; transition-duration:100ms; }
-a:hover { color: #183f59; }
+a:hover { text-shadow:#90dbfd 0 0 12px; }
 a:active { position:relative; top:1px; }
 
 body > div#wrapper {
@@ -98,40 +99,24 @@ footer span#ampersand {
 
 /* Fade in animation */
 body > div#wrapper {
-	animation: fadein 3s;
-	-moz-animation: fadein 3s;
-	-webkit-animation: fadein 3s;
-	-o-animation: fadein 3s;
+	opacity:0;
+
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	animation-duration:2s;
+
+	-webkit-animation-delay:0.5s;
+	-moz-animation-delay:0.5s;
+	animation-delay:0.5s;
 }
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}​
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
