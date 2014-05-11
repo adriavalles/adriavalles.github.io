@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Hello! You like looking at other people's code? Nice. I like doing so too :) Enjoy! But don't copy... -->
+		<!-- Hello! You like looking at other people's code? Nice. I like doing so too :) Enjoy! But don't copy... or, at least, give credit. -->
 		<meta charset=utf-8 />
 		<title>Error 404 Page Not Found - Adrià Vallès</title>
 		<meta name="keywords" content="adria, valles, adriavalles, adrià, vallès, developer, web, designer, desarrollo, diseño, internet, proyecto" />
@@ -16,8 +16,16 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<link rel="stylesheet" type="text/css" media="screen"  href="css/font-awesome-ie7.css">
 		<![endif]-->
-		<script type="text/javascript" src="js/jquery.fittext.js"></script>
+		<script type="text/javascript" src="js/flowtype.js"></script>
 		<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('div#email').flowtype({
+					maxFont : 65,
+					fontRatio : 10
+				});
+			});
+		</script>
 		<script type="text/javascript">
 
 			var _gaq = _gaq || [];

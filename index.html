@@ -17,11 +17,14 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<link rel="stylesheet" type="text/css" media="screen"  href="css/font-awesome-ie7.css">
 		<![endif]-->
-		<script type="text/javascript" src="js/jquery.fittext.js"></script>
+		<script type="text/javascript" src="js/flowtype.js"></script>
 		<script type="text/javascript" src="js/jquery.tipsy.js"></script>
 		<script type="text/javascript">
 			$(function() {
-				$('div#email').fitText(1.2, { maxFontSize: '65px' });
+				$('div#email').flowtype({
+					maxFont : 65,
+					fontRatio : 10
+				});
 				$('span.since').tipsy({gravity: 'w', fade:true});
 				$('#email').tipsy({gravity: 'n', fade:true});
 				$('li.info').tipsy({gravity: 'e', fade:true});
