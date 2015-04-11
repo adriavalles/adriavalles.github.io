@@ -6,7 +6,7 @@
 
 /* BASE */
 * { margin:0; padding:0; }
-body { background:#204867 url("../img/bg.jpg") repeat fixed center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; font:normal 14px "Lucida Grande","Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; color:#183f59; }
+body { background:#204867 url("../img/bg.jpg") repeat fixed center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; font:normal 14px "Lucida Grande","Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; color:#fff; }
 img { border:none; }
 a { color:#e5e5e5; text-decoration:none; outline-style:none; -webkit-transition-duration:100ms; -moz-transition-duration:100ms; transition-duration:100ms; }
 a:hover { text-shadow:#90dbfd 0 0 12px; }
