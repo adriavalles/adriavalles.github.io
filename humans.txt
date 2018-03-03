@@ -1,0 +1,13 @@
+/* ME */
+	Adrià Vallès
+	Contact: You have the email in the home page.
+	Twitter: @adriav
+	From: Barcelona, Catalonia, Spain
+
+/* THANKS */
+    github.com - For the hosting and the best GIT repositories.
+    simplefocus.com/flowtype - For the great JS library for dynamic typography.
+
+/* SITE */
+	Doctype: HTML5
+	IDE: PHPStorm (although it's just few HTMLs and CSSs...)
