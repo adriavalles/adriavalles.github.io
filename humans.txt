@@ -6,7 +6,7 @@
 
 /* THANKS */
     github.com - For the hosting and the best GIT repositories.
-    simplefocus.com/flowtype - For the great JS library for dynamic typography.
+    getbootstrap.com - To allow me create this website in minutes.
 
 /* SITE */
 	Doctype: HTML5

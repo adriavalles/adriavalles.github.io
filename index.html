@@ -1,89 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Hola! You like looking at other people's code? Nice. Me too :) But don't copy... or, at least, give credit. And well... this code is a bit old, I'm a bit ashamed. Enjoy! -->
-		<meta charset="utf-8" />
-		<title>Adrià Vallès</title>
-		<meta name="keywords" content="adria, valles, adriavalles, adrià, vallès, adria valles, developer, web, designer, desarrollo, diseño, internet, proyecto" />
-		<meta name="robots" content="all" />
-		<meta name="googlebot" content="index" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="favicon.ico"/>
-		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" media="screen"  href="css/font-awesome.css">
-		<link rel="stylesheet" type="text/css" media="screen"  href="css/tipsy.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" type="text/css" media="screen"  href="css/font-awesome-ie7.css">
-		<![endif]-->
-		<script type="text/javascript" src="js/flowtype.js"></script>
-		<script type="text/javascript" src="js/jquery.tipsy.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('div#email').flowtype({
-					maxFont : 65,
-					fontRatio : 10
-				});
-				$('span.since').tipsy({gravity: 'w', fade:true});
-				$('#email').tipsy({gravity: 'n', fade:true});
-				$('li.info').tipsy({gravity: 'e', fade:true});
-			});
-		</script>
-		<script type="text/javascript">
+<head>
+    <meta charset="UTF-8">
+    <title>Adrià Vallès</title>
+    <meta name="keywords" content="adria, valles, adriavalles, adrià, vallès, adria valles, adrià vallès"/>
+    <meta name="robots" content="all"/>
+    <meta name="googlebot" content="index"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body {
+            background: #eee;
+            padding-top: 10em;
+        }
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-122326-12']);
-			_gaq.push(['_setDomainName', 'adriavalles.net']);
-			_gaq.push(['_trackPageview']);
+        p {
+            margin-bottom: 0.5em;
+        }
 
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
+        a {
+            color: inherit;
+            font-weight: bold;
+            border-bottom: #424242 1px solid;
+            text-decoration: none;
+        }
 
-		</script>
-	</head>
-	<body>
-		<div id="wrapper">
-			<div id="email" title="Send me an email here!">
-				&#104;&#111;&#108;&#97;&#64;&#97;&#100;&#114;&#105;&#97;&#118;&#97;&#108;&#108;&#101;&#115;&#46;&#110;&#101;&#116;
-			</div>
-			<section id="links">
-				<section itemscope itemtype="http://data-vocabulary.org/Person">
-					<h3>Me</h3>
-					<ul>
-						<li class="info" title="Hi! Nice to meet you." itemprop="name"><i class="icon-user"></i> <h1>Adrià Vallès</h1></li>
-						<li class="info" title="I live here" itemprop="location locality"><i class="icon-map-marker"></i> Barcelona</li>
-						<li class="info" title="I work here" itemprop="organization"><i class="icon-briefcase"></i> Engineering @ letgo</li>
-						<li class="info" title="I studied this"><i class="icon-book"></i> Computer Software</li>
-						<meta itemprop="title role" content="Web developer" />
-					</ul>
-				</section>
-				<section>
-					<h3>Social profiles</h3>
-					<ul>
-						<li><a href="http://es.linkedin.com/in/adriavalles" rel="me">LinkedIn</a></li>
-						<li><a href="http://www.twitter.com/adriav" rel="me">Twitter</a></li>
-						<li><a href="https://github.com/adriavalles" rel="me">Github</a></li>
-						<li><a href="http://blog.adriavalles.net/" rel="me">Tumblr</a></li>
-						<li><a href="http://www.lastfm.es/user/Adria13" rel="me">Last.fm</a></li>
-					</ul>
-				</section>
-				<section>
-					<h3>Some side projects</h3>
-					<ul>
-						<li><span class="since" title="Project started on 2014">2014</span><a href="appstorealerts.html" title="Set price alerts for apps in the Apple AppStore to download cheap apps">appstorealerts.com</a></li>
-						<li><span class="since" title="Project started on 2011">2011</span><a href="http://en5min.tumblr.com" title="La programación de tu cadena favorita en Twitter">en5min</a></li>
-						<li><span class="since" title="Project started on 2010">2010</span> <a href="https://web.archive.org/web/20161023230048/http://en.invisiblepal.com/" title="Secret Santa Creator - Creador de amigo invisible">InvisiblePal</a></li>
-						<li><span class="since" title="Project started on 2009">2009</span><a href="http://welovestopmotion.com" title="Stopmotion videos, pixilation, claymation">We love stop-motion</a></li>
-					</ul>
-				</section>
-			</section>
-		</div>
-		<footer>
-			<a href="http://www.adriavalles.net" title="Adrià Vallès">Adrià Vallès</a>
-		</footer>
-	</body>
+        a:hover {
+            color: #888;
+            text-decoration: none;
+            border-color: #888;
+        }
+
+        #hola {
+            padding-left: -2px;
+        }
+
+        #datmail {
+            border-bottom: #555 1px dashed;
+        }
+
+        @media (max-width: 575.98px) {
+            body {
+                padding-top: 5em;
+            }
+
+            #hola {
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row row h-100">
+        <div class="col my-auto">
+            <h1 class="display-3" id="hola">Hola!</h1>
+            <p>
+                My name is <strong>Adrià Vallès</strong> and I'm a Software Engineer from Barcelona.
+            </p>
+            <p>
+                You may be interested in my <a href="https://www.linkedin.com/in/adriavalles/"
+                                               target="_blank">LinkedIn</a>, <a
+                    href="https://blog.adriavalles.net" target="_blank">Tumblr</a> or <a
+                    href="https://www.twitter.com/adriav" target="_blank">Twitter</a> profiles.
+            </p>
+            <p>
+                If you need anything, drop me a line at <span id="datmail">&#104;&#111;&#108;&#97;&#64;&#97;&#100;&#114;&#105;&#97;&#118;&#97;&#108;&#108;&#101;&#115;&#46;&#110;&#101;&#116;</span>
+                👋
+            </p>
+        </div>
+    </div>
+</div>
+</body>
 </html>

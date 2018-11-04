@@ -1,10 +1,1 @@
-Hi, this is the repo for my personal website
-============================================
-
-You can visit it here: [http://www.adriavalles.net](http://www.adriavalles.net)
-
-Credits:
-* [Tipsy](http://onehackoranother.com/projects/jquery/tipsy/)
-* [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
-
-Bye! :)
+Thanks GitHub for hosting [adriavalles.net](https://www.adriavalles.net) for free. 🙃
