@@ -12,13 +12,18 @@
     </script>
     <meta charset="UTF-8">
     <title>Adrià Vallès</title>
-    <meta name="keywords" content="adria, valles, adriavalles, adrià, vallès, adria valles, adrià vallès"/>
+    <meta name="keywords" content="adria, valles, adriavalles, adrià, vallès, adria valles, adrià vallès, engineering, manager, leader, leadership"/>
     <meta name="robots" content="all"/>
     <meta name="googlebot" content="index"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta itemprop="name" content="Adrià Vallès">
+    <meta name="og:title" content="Adrià Vallès">
+    <meta name="og:image" content="https://www.adriavalles.net/preview.png">
+    <meta name="og:url" content="https://www.adriavalles.net">
+    <meta name="og:site_name" content="Adrià Vallès">
+    <meta name="og:type" content="website">
     <style>
         body {
             background: #eee;
@@ -59,6 +64,26 @@
                 font-size: 3em;
             }
         }
+
+        /* Thanks Jake for this 👇! https://jarv.is/notes/css-waving-hand-emoji */
+        .wave {
+          animation-name: wave-animation;  
+          animation-duration: 2.5s;        
+          animation-iteration-count: infinite;  
+          transform-origin: 70% 70%;       
+          display: inline-block;
+        }
+
+        @keyframes wave-animation {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }  
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }  
+          100% { transform: rotate( 0.0deg) }
+        }
     </style>
 </head>
 <body>
@@ -67,7 +92,7 @@
         <div class="col my-auto">
             <h1 class="display-3" id="hola">Hola!</h1>
             <p>
-                My name is <strong>Adrià Vallès</strong> and I'm a Software Engineer from Barcelona.
+                My name is <strong>Adrià Vallès</strong> and I'm a Software Engineer from Barcelona, now focused on helping engineering teams give their best.
             </p>
             <p>
                 Take a look at my <a href="https://www.linkedin.com/in/adriavalles/" title="That's my profesional profile"
@@ -76,7 +101,7 @@
             </p>
             <p>
                 Do you want to contact me? Drop me a line at <span id="datmail" title="That's my email!">&#104;&#111;&#108;&#97;&#64;&#97;&#100;&#114;&#105;&#97;&#118;&#97;&#108;&#108;&#101;&#115;&#46;&#110;&#101;&#116;</span>
-                👋
+                <span class="wave">👋</span>
             </p>
         </div>
     </div>
