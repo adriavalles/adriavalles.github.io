@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM8L1ZDM03"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-VM8L1ZDM03');
+        gtag('config', 'G-VM8L1ZDM03');
     </script>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Adrià Vallès</title>
-    <meta name="description" content="My name is Adrià Vallès and I'm a Software Engineer from Barcelona, now focused on helping engineering teams give their best.">
-    <meta name="keywords" content="adria, valles, adriavalles, adrià, vallès, adria valles, adrià vallès, adriav, engineering, manager, leader, People, development, career path, goal setting, coaching, mentoring, Servant, Leadership, Project Management, Agile, OKRs, Lean, Facilitation, Transparent Communication, Empowerment, Team building, Inclusion, Engineering, Microservices, Growth, APIs, EventDD, TDD, CI/CD"/>
-    <meta name="robots" content="all"/>
-    <meta name="googlebot" content="index"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.adriavalles.net">
-    <meta property="og:title" content="Adrià Vallès">
-    <meta property="og:description" content="My name is Adrià Vallès and I'm a Software Engineer from Barcelona, now focused on helping engineering teams give their best.">
-    <meta property="og:image" content="https://www.adriavalles.net/preview.png">
+    <meta name="description"
+        content="My name is Adrià Vallès and I'm a Software Engineer from Barcelona, now focused on helping engineering teams give their best." />
+    <meta name="keywords"
+        content="adria, valles, adriavalles, adrià, vallès, adria valles, adrià vallès, adriav, engineering, manager, leader, People, development, career path, goal setting, coaching, mentoring, Servant, Leadership, Project Management, Agile, OKRs, Lean, Facilitation, Transparent Communication, Empowerment, Team building, Inclusion, Engineering, Microservices, Growth, APIs, EventDD, TDD, CI/CD" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.adriavalles.net" />
+    <meta property="og:title" content="Adrià Vallès" />
+    <meta property="og:description"
+        content="My name is Adrià Vallès and I'm a Software Engineer from Barcelona, now focused on helping engineering teams give their best." />
+    <meta property="og:image" content="https://www.adriavalles.net/preview.png" />
     <style>
         body {
             background: #eee;
             padding-top: 10em;
         }
 
-        p {
+        p,
+        h1 {
             margin-bottom: 0.5em;
         }
 
@@ -44,11 +48,7 @@
         a:hover {
             color: #888;
             text-decoration: none;
-            border-color: #888;
-        }
-
-        #hola {
-            margin-left: -2px;
+            border: none;
         }
 
         #datmail {
@@ -59,51 +59,82 @@
             body {
                 padding-top: 5em;
             }
-
-            #hola {
-                font-size: 3em;
-            }
         }
 
         /* Thanks Jake for this 👇! https://jarv.is/notes/css-waving-hand-emoji */
         .wave {
-          animation-name: wave-animation;  
-          animation-duration: 2.5s;        
-          animation-iteration-count: infinite;  
-          transform-origin: 70% 70%;       
-          display: inline-block;
+            animation-name: wave-animation;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;
+            transform-origin: 70% 70%;
+            display: inline-block;
         }
 
         @keyframes wave-animation {
-            0% { transform: rotate( 0.0deg) }
-           10% { transform: rotate(14.0deg) }  
-           20% { transform: rotate(-8.0deg) }
-           30% { transform: rotate(14.0deg) }
-           40% { transform: rotate(-4.0deg) }
-           50% { transform: rotate(10.0deg) }
-           60% { transform: rotate( 0.0deg) }  
-          100% { transform: rotate( 0.0deg) }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            10% {
+                transform: rotate(14deg);
+            }
+
+            20% {
+                transform: rotate(-8deg);
+            }
+
+            30% {
+                transform: rotate(14deg);
+            }
+
+            40% {
+                transform: rotate(-4deg);
+            }
+
+            50% {
+                transform: rotate(10deg);
+            }
+
+            60% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
         }
     </style>
 </head>
+
 <body>
-<div class="container">
-    <div class="row row h-100">
-        <div class="col my-auto">
-            <h1 class="display-3" id="hola">Hola!</h1>
-            <p>
-                My name is <strong>Adrià Vallès</strong> and I'm a Software Engineer from Barcelona, now focused on helping engineering teams give their best.
-            </p>
-            <p>
-                Curious to know more about me? Check out my <a rel="me" href="https://www.linkedin.com/in/adriavalles/" title="That's my profesional profile"
-		target="_blank">LinkedIn</a>, <a rel="me" href="https://www.instagram.com/adria.valles" title="Those are my photos" target="_blank">Instagram</a>, <a rel="me"
-		href="https://www.twitter.com/adriav" title="Those are my personal thoughts" target="_blank">Twitter</a> or <a rel="me" href="https://mastodon.social/@adriav" title="Those are my personal thoughts" target="_blank">Mastodon</a> profiles.
-            </p>
-            <p>
-                Wanna chat? Just drop me a line at <span id="datmail" title="That's my email!">&#104;&#111;&#108;&#97;&#64;&#97;&#100;&#114;&#105;&#97;&#118;&#97;&#108;&#108;&#101;&#115;&#46;&#110;&#101;&#116;</span> <span class="wave">👋</span>
-            </p>
-        </div>
+    <div class="container">
+        <h1 class="display-3" id="hola">
+            <span class="wave">👋</span> Hola!
+        </h1>
+        <p>
+            My name is <strong>Adrià Vallès</strong> and I'm a Software Engineer
+            from Barcelona, now focused on helping engineering teams give their
+            best.
+        </p>
+        <p>
+            Curious to know more about me? Check out my
+            <a rel="me" href="https://www.linkedin.com/in/adriavalles/" title="That's my profesional profile"
+                target="_blank">LinkedIn</a>,
+            <a rel="me" href="https://www.instagram.com/adria.valles" title="Those are my photos"
+                target="_blank">Instagram</a>,
+            <a rel="me" href="https://www.twitter.com/adriav" title="Those are my personal thoughts"
+                target="_blank">X</a>
+            or
+            <a rel="me" href="https://mastodon.social/@adriav" title="Those are my personal thoughts"
+                target="_blank">Mastodon</a>
+            profiles.
+        </p>
+        <p>
+            Wanna chat? Just drop me a line at
+            <span id="datmail"
+                title="That's my email!">&#104;&#111;&#108;&#97;&#64;&#97;&#100;&#114;&#105;&#97;&#118;&#97;&#108;&#108;&#101;&#115;&#46;&#110;&#101;&#116;</span>.
+        </p>
     </div>
-</div>
 </body>
+
 </html>

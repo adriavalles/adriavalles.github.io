@@ -7,7 +7,8 @@
 /* THANKS */
     github.com - For the hosting and the best GIT repositories.
     getbootstrap.com - To allow me create this website in minutes.
+	jarv.is - For the hand emoji animation idea.
 
 /* SITE */
 	Doctype: HTML5
-	IDE: PHPStorm (although it's just few HTMLs and CSSs...)
+	IDE: VSCode (although it's just few HTMLs and CSS...)
